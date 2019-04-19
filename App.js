@@ -18,6 +18,7 @@ export default class ImagePickerExample extends React.Component {
         />
         {image &&
           <Image source={{ uri: image }} style={{ width: 200, height: 200 }} />}
+      <Text>Changed something</Text>
       </View>
     );
   }
